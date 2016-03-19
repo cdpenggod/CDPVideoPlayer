@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E5B38341C986B390000EA90 /* CDPSlider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E5B38321C986B390000EA90 /* CDPSlider@2x.png */; };
+		5E5B38351C986B390000EA90 /* CDPSlider@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E5B38331C986B390000EA90 /* CDPSlider@3x.png */; };
+		8714F2AA1C86CB8000687ABD /* CDPVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8714F2A91C86CB8000687ABD /* CDPVideoPlayer.m */; };
 		878EDBB51C858F6C00B43868 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 878EDBB41C858F6C00B43868 /* main.m */; };
 		878EDBB81C858F6C00B43868 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 878EDBB71C858F6C00B43868 /* AppDelegate.m */; };
 		878EDBBB1C858F6C00B43868 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878EDBBA1C858F6C00B43868 /* ViewController.m */; };
@@ -15,6 +18,18 @@
 		878EDBC31C858F6C00B43868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878EDBC11C858F6C00B43868 /* LaunchScreen.storyboard */; };
 		878EDBCE1C858F6C00B43868 /* playerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 878EDBCD1C858F6C00B43868 /* playerTests.m */; };
 		878EDBD91C858F6C00B43868 /* playerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 878EDBD81C858F6C00B43868 /* playerUITests.m */; };
+		878EDBE81C85908F00B43868 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878EDBE71C85908F00B43868 /* PlayerViewController.m */; };
+		87A2D8E41C8976E900B1D902 /* CDPPause.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A2D8DC1C8976E900B1D902 /* CDPPause.png */; };
+		87A2D8E51C8976E900B1D902 /* CDPPause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A2D8DD1C8976E900B1D902 /* CDPPause@2x.png */; };
+		87A2D8E61C8976E900B1D902 /* CDPPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A2D8DE1C8976E900B1D902 /* CDPPlay.png */; };
+		87A2D8E71C8976E900B1D902 /* CDPPlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A2D8DF1C8976E900B1D902 /* CDPPlay@2x.png */; };
+		87A2D8E81C8976E900B1D902 /* CDPZoomIn.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A2D8E01C8976E900B1D902 /* CDPZoomIn.png */; };
+		87A2D8E91C8976E900B1D902 /* CDPZoomIn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A2D8E11C8976E900B1D902 /* CDPZoomIn@2x.png */; };
+		87A2D8EA1C8976E900B1D902 /* CDPZoomOut.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A2D8E21C8976E900B1D902 /* CDPZoomOut.png */; };
+		87A2D8EB1C8976E900B1D902 /* CDPZoomOut@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A2D8E31C8976E900B1D902 /* CDPZoomOut@2x.png */; };
+		87CB16861C8ED37D00C4E9F8 /* CDPBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87CB16841C8ED37D00C4E9F8 /* CDPBack@2x.png */; };
+		87CB16871C8ED37D00C4E9F8 /* CDPBack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87CB16851C8ED37D00C4E9F8 /* CDPBack@3x.png */; };
+		87CB168A1C8ED47A00C4E9F8 /* CDPButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CB16891C8ED47A00C4E9F8 /* CDPButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E5B38321C986B390000EA90 /* CDPSlider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CDPSlider@2x.png"; sourceTree = "<group>"; };
+		5E5B38331C986B390000EA90 /* CDPSlider@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CDPSlider@3x.png"; sourceTree = "<group>"; };
+		8714F2A81C86CB8000687ABD /* CDPVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPVideoPlayer.h; sourceTree = "<group>"; };
+		8714F2A91C86CB8000687ABD /* CDPVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDPVideoPlayer.m; sourceTree = "<group>"; };
 		878EDBB01C858F6C00B43868 /* player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = player.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		878EDBB41C858F6C00B43868 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		878EDBB61C858F6C00B43868 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,12 +64,26 @@
 		878EDBBF1C858F6C00B43868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		878EDBC21C858F6C00B43868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		878EDBC41C858F6C00B43868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		878EDBC91C858F6C00B43868 /* playerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		878EDBC91C858F6C00B43868 /* player.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = player.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		878EDBCD1C858F6C00B43868 /* playerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = playerTests.m; sourceTree = "<group>"; };
 		878EDBCF1C858F6C00B43868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		878EDBD41C858F6C00B43868 /* playerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		878EDBD41C858F6C00B43868 /* player.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = player.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		878EDBD81C858F6C00B43868 /* playerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = playerUITests.m; sourceTree = "<group>"; };
 		878EDBDA1C858F6C00B43868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878EDBE61C85908F00B43868 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		878EDBE71C85908F00B43868 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		87A2D8DC1C8976E900B1D902 /* CDPPause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CDPPause.png; sourceTree = "<group>"; };
+		87A2D8DD1C8976E900B1D902 /* CDPPause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CDPPause@2x.png"; sourceTree = "<group>"; };
+		87A2D8DE1C8976E900B1D902 /* CDPPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CDPPlay.png; sourceTree = "<group>"; };
+		87A2D8DF1C8976E900B1D902 /* CDPPlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CDPPlay@2x.png"; sourceTree = "<group>"; };
+		87A2D8E01C8976E900B1D902 /* CDPZoomIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CDPZoomIn.png; sourceTree = "<group>"; };
+		87A2D8E11C8976E900B1D902 /* CDPZoomIn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CDPZoomIn@2x.png"; sourceTree = "<group>"; };
+		87A2D8E21C8976E900B1D902 /* CDPZoomOut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CDPZoomOut.png; sourceTree = "<group>"; };
+		87A2D8E31C8976E900B1D902 /* CDPZoomOut@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CDPZoomOut@2x.png"; sourceTree = "<group>"; };
+		87CB16841C8ED37D00C4E9F8 /* CDPBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CDPBack@2x.png"; sourceTree = "<group>"; };
+		87CB16851C8ED37D00C4E9F8 /* CDPBack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CDPBack@3x.png"; sourceTree = "<group>"; };
+		87CB16881C8ED47A00C4E9F8 /* CDPButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPButton.h; sourceTree = "<group>"; };
+		87CB16891C8ED47A00C4E9F8 /* CDPButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDPButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +111,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8714F2A41C86BDE000687ABD /* CDPVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				8714F2A81C86CB8000687ABD /* CDPVideoPlayer.h */,
+				8714F2A91C86CB8000687ABD /* CDPVideoPlayer.m */,
+				87CB16881C8ED47A00C4E9F8 /* CDPButton.h */,
+				87CB16891C8ED47A00C4E9F8 /* CDPButton.m */,
+				87A2D8DB1C8976E900B1D902 /* CDPImages */,
+			);
+			path = CDPVideoPlayer;
+			sourceTree = "<group>";
+		};
 		878EDBA71C858F6C00B43868 = {
 			isa = PBXGroup;
 			children = (
+				8714F2A41C86BDE000687ABD /* CDPVideoPlayer */,
 				878EDBB21C858F6C00B43868 /* player */,
 				878EDBCC1C858F6C00B43868 /* playerTests */,
 				878EDBD71C858F6C00B43868 /* playerUITests */,
@@ -92,8 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				878EDBB01C858F6C00B43868 /* player.app */,
-				878EDBC91C858F6C00B43868 /* playerTests.xctest */,
-				878EDBD41C858F6C00B43868 /* playerUITests.xctest */,
+				878EDBC91C858F6C00B43868 /* player.xctest */,
+				878EDBD41C858F6C00B43868 /* player.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +151,8 @@
 				878EDBB71C858F6C00B43868 /* AppDelegate.m */,
 				878EDBB91C858F6C00B43868 /* ViewController.h */,
 				878EDBBA1C858F6C00B43868 /* ViewController.m */,
+				878EDBE61C85908F00B43868 /* PlayerViewController.h */,
+				878EDBE71C85908F00B43868 /* PlayerViewController.m */,
 				878EDBBC1C858F6C00B43868 /* Main.storyboard */,
 				878EDBBF1C858F6C00B43868 /* Assets.xcassets */,
 				878EDBC11C858F6C00B43868 /* LaunchScreen.storyboard */,
@@ -138,6 +186,25 @@
 				878EDBDA1C858F6C00B43868 /* Info.plist */,
 			);
 			path = playerUITests;
+			sourceTree = "<group>";
+		};
+		87A2D8DB1C8976E900B1D902 /* CDPImages */ = {
+			isa = PBXGroup;
+			children = (
+				5E5B38321C986B390000EA90 /* CDPSlider@2x.png */,
+				5E5B38331C986B390000EA90 /* CDPSlider@3x.png */,
+				87CB16841C8ED37D00C4E9F8 /* CDPBack@2x.png */,
+				87CB16851C8ED37D00C4E9F8 /* CDPBack@3x.png */,
+				87A2D8DC1C8976E900B1D902 /* CDPPause.png */,
+				87A2D8DD1C8976E900B1D902 /* CDPPause@2x.png */,
+				87A2D8DE1C8976E900B1D902 /* CDPPlay.png */,
+				87A2D8DF1C8976E900B1D902 /* CDPPlay@2x.png */,
+				87A2D8E01C8976E900B1D902 /* CDPZoomIn.png */,
+				87A2D8E11C8976E900B1D902 /* CDPZoomIn@2x.png */,
+				87A2D8E21C8976E900B1D902 /* CDPZoomOut.png */,
+				87A2D8E31C8976E900B1D902 /* CDPZoomOut@2x.png */,
+			);
+			path = CDPImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,7 +242,7 @@
 			);
 			name = playerTests;
 			productName = playerTests;
-			productReference = 878EDBC91C858F6C00B43868 /* playerTests.xctest */;
+			productReference = 878EDBC91C858F6C00B43868 /* player.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		878EDBD31C858F6C00B43868 /* playerUITests */ = {
@@ -193,7 +260,7 @@
 			);
 			name = playerUITests;
 			productName = playerUITests;
-			productReference = 878EDBD41C858F6C00B43868 /* playerUITests.xctest */;
+			productReference = 878EDBD41C858F6C00B43868 /* player.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -243,9 +310,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87A2D8E51C8976E900B1D902 /* CDPPause@2x.png in Resources */,
+				5E5B38341C986B390000EA90 /* CDPSlider@2x.png in Resources */,
+				87CB16871C8ED37D00C4E9F8 /* CDPBack@3x.png in Resources */,
+				87A2D8EA1C8976E900B1D902 /* CDPZoomOut.png in Resources */,
+				5E5B38351C986B390000EA90 /* CDPSlider@3x.png in Resources */,
+				87A2D8E41C8976E900B1D902 /* CDPPause.png in Resources */,
+				87CB16861C8ED37D00C4E9F8 /* CDPBack@2x.png in Resources */,
+				87A2D8EB1C8976E900B1D902 /* CDPZoomOut@2x.png in Resources */,
 				878EDBC31C858F6C00B43868 /* LaunchScreen.storyboard in Resources */,
+				87A2D8E81C8976E900B1D902 /* CDPZoomIn.png in Resources */,
+				87A2D8E71C8976E900B1D902 /* CDPPlay@2x.png in Resources */,
 				878EDBC01C858F6C00B43868 /* Assets.xcassets in Resources */,
 				878EDBBE1C858F6C00B43868 /* Main.storyboard in Resources */,
+				87A2D8E61C8976E900B1D902 /* CDPPlay.png in Resources */,
+				87A2D8E91C8976E900B1D902 /* CDPZoomIn@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +350,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				878EDBBB1C858F6C00B43868 /* ViewController.m in Sources */,
+				878EDBE81C85908F00B43868 /* PlayerViewController.m in Sources */,
 				878EDBB81C858F6C00B43868 /* AppDelegate.m in Sources */,
+				87CB168A1C8ED47A00C4E9F8 /* CDPButton.m in Sources */,
+				8714F2AA1C86CB8000687ABD /* CDPVideoPlayer.m in Sources */,
 				878EDBB51C858F6C00B43868 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,7 +445,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -401,7 +483,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -413,10 +495,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VenvyVideoSDK",
+				);
 				INFOPLIST_FILE = player/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wolonge.player;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CDP.CDP;
+				PRODUCT_NAME = player;
 			};
 			name = Debug;
 		};
@@ -424,10 +513,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VenvyVideoSDK",
+				);
 				INFOPLIST_FILE = player/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wolonge.player;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CDP.CDP;
+				PRODUCT_NAME = player;
 			};
 			name = Release;
 		};
@@ -438,7 +534,7 @@
 				INFOPLIST_FILE = playerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wolonge.playerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = player;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/player.app/player";
 			};
 			name = Debug;
@@ -450,7 +546,7 @@
 				INFOPLIST_FILE = playerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wolonge.playerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = player;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/player.app/player";
 			};
 			name = Release;
@@ -461,7 +557,7 @@
 				INFOPLIST_FILE = playerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wolonge.playerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = player;
 				TEST_TARGET_NAME = player;
 				USES_XCTRUNNER = YES;
 			};
@@ -473,7 +569,7 @@
 				INFOPLIST_FILE = playerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wolonge.playerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = player;
 				TEST_TARGET_NAME = player;
 				USES_XCTRUNNER = YES;
 			};
@@ -498,6 +594,7 @@
 				878EDBDF1C858F6C00B43868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		878EDBE01C858F6C00B43868 /* Build configuration list for PBXNativeTarget "playerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +603,7 @@
 				878EDBE21C858F6C00B43868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		878EDBE31C858F6C00B43868 /* Build configuration list for PBXNativeTarget "playerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +612,7 @@
 				878EDBE51C858F6C00B43868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
