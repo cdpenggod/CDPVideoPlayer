@@ -30,7 +30,7 @@
     label.font=[UIFont systemFontOfSize:15];
     label.textAlignment=NSTextAlignmentCenter;
     label.numberOfLines=0;
-    label.text=@"CDPVideoPlayer是一个用AVFoundation框架搭建的视频播放器,使用AVPlayer对象播放\n\n自带有默认UI,也可以根据需求自定义UI, 单击显示/隐藏上下导航栏, 双击切换或缩小全屏,横向拖动控制播放进度,上下拖动控制音量等等\n\n具体在CDPVideoPlayer.h文件中都有说明\n\n详情请看demo";
+    label.text=@"CDPVideoPlayer是一个用AVFoundation框架搭建的视频播放器,使用AVPlayer对象播放\n\n自带有默认UI,也可以根据需求自定义UI, 单击显示/隐藏上下导航栏, 双击切换或缩小全屏,横向拖动控制播放进度,上下拖动控制音量等等\n\n具体在CDPVideoPlayer.h文件中都有说明\n\n详情请看demo\n\ngithub地址:https://github.com/cdpenggod/CDPVideoPlayer";
     [self.view addSubview:label];
 
 }
