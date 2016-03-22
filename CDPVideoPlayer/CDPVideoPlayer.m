@@ -586,7 +586,8 @@
     
     if (_isFullScreen==YES) {
         //全屏
-        self.frame=CGRectMake(0,0,CDPSHEIGHT,CDPSWIDTH);
+        NSInteger systemVersion=[[UIDevice currentDevice].systemVersion integerValue];
+        self.frame=(systemVersion<8.0&&systemVersion>=7.0)?CGRectMake(0,0,CDPSWIDTH,CDPSHEIGHT):CGRectMake(0,0,CDPSHEIGHT,CDPSWIDTH);
         _playerLayer.frame=self.bounds;
         self.center=self.window.center;
         
